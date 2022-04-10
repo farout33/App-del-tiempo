@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color: #540c70;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: linear-gradient(300deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.seccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 8px 10px #000000;
+    font-size: 40px;
+}
+input{
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #ffffff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 4);
+    min-width: 300px;
+    font-size: 1rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+.weather{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.weather h2{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
